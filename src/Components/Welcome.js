@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Welcome.css';
 
-export default class componentName extends Component {
+export default class Welcome extends Component {
   render() {
     return (
-      <div className="welcome-container">
+      <div className="welcome-container" id="welcome">
         Welcome
         <div />
       </div>

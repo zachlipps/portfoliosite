@@ -4,7 +4,8 @@ import Intro from './Components/Intro';
 import Projects from './Components/Projects';
 import Resume from './Components/Resume';
 import Welcome from './Components/Welcome';
-import logo from './logo.svg';
+import Footer from './Components/Footer';
+// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -12,10 +13,13 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Intro />
-        <Welcome />
-        <Projects />
-        <Resume />
+        <div className="scroll-container">
+          <Welcome />
+          <Intro />
+          <Projects />
+          <Resume />
+          <Footer />
+        </div>
       </div>
     );
   }
