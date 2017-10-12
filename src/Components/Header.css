@@ -11,8 +11,12 @@
   background-color: lightgray;
   height: auto;
   opacity: 0.75;
+  height: 50px;
+  align-items: center;
 }
 
 .topbar-container > * {
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
