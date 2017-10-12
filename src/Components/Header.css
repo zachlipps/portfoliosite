@@ -1,0 +1,16 @@
+.topbar-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 0;
+  border-bottom: 5px solid black;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  justify-content: space-around;
+  background-color: lightgray;
+}
+
+.topbar-container > * {
+  cursor: pointer;
+}
