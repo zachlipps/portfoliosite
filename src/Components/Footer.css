@@ -1,4 +1,20 @@
 .footer-container {
-  height: auto;
   border: 100% solid green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-bottom {
+  height: 100px;
+  width: 100px;
+}
+
+.footer-info {
+  cursor: pointer;
+}
+
+.footer {
+  justify-content: center;
+  flex-flow: column;
 }

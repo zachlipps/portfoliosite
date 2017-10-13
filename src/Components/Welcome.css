@@ -34,6 +34,7 @@
   transition: all 1s ease-out;
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+  cursor: pointer;
   /* background-color: black;
   border-radius: 100%;
   opacity: 0.75; */
@@ -44,7 +45,7 @@
   -webkit-transform: rotate(90deg);
 }
 
-h1 {
+.welcome-statement {
   font-size: 500%;
   font-family: monospace;
 }
