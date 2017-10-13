@@ -1,17 +1,32 @@
 .footer-container {
-  border: 100% solid green;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: gray;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: auto;
 }
 
-.logo-bottom {
-  height: 100px;
-  width: 100px;
+.bottom-logo {
+  padding: 15px;
+  margin-right: 80px;
+  height: 50px;
+  width: 50px;
+  transition: all 1s ease-out;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  cursor: pointer;
+}
+
+.bottom-logo:hover {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
 }
 
 .footer-info {
   cursor: pointer;
+  justify-content: flex-start;
 }
 
 .footer {
