@@ -1,21 +1,28 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import img1 from './images/Swiss1.JPG';
+import img2 from './images/Swiss2.JPG';
+import './Slider.css';
 
 export default class Slider extends Component {
   render() {
     return (
-      <Carousel>
+      <Carousel
+        autoPlay
+        showArrows
+        infiniteLoop
+        interval={10000}
+        transitionTime={500}
+        showStatus={false}
+        stopOnHover={false}
+        useKeyboardArrows
+      >
         <div>
-          <img src="assets/1.jpeg" />
-          <p className="legend">Legend 1</p>
+          <img src={img1} alt="nope" />
         </div>
         <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Legend 2</p>
-        </div>
-        <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
+          <img src={img2} alt="nope" />
         </div>
       </Carousel>
     );
