@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import img1 from './images/Swiss1.JPG';
 import img2 from './images/Swiss2.JPG';
+import img3 from './images/utah.JPG';
 import './Slider.css';
 
 export default class Slider extends Component {
@@ -16,6 +17,7 @@ export default class Slider extends Component {
         transitionTime={500}
         showStatus={false}
         stopOnHover={false}
+        showThumbs={false}
         useKeyboardArrows
       >
         <div>
@@ -23,6 +25,9 @@ export default class Slider extends Component {
         </div>
         <div>
           <img src={img2} alt="nope" />
+        </div>
+        <div>
+          <img src={img3} alt="nope" />
         </div>
       </Carousel>
     );

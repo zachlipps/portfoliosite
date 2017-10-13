@@ -10,10 +10,10 @@
   display: flex;
   margin-top: 0;
   align-items: center;
-  justify-content: center;
-  z-index: 10;
+  justify-content: space-around;
+  margin-top: 50px;
+  z-index: 4;
   position: absolute;
-  border: 5px solid blue;
   height: 100%;
   width: 100%;
   flex-direction: column;
@@ -28,14 +28,23 @@
 
 .logo {
   padding: 15px;
-  height: 75px;
-  width: 75px;
+  margin: 10px;
+  height: 125px;
+  width: 125px;
   transition: all 1s ease-out;
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+  /* background-color: black;
+  border-radius: 100%;
+  opacity: 0.75; */
 }
 
 .logo:hover {
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
+}
+
+h1 {
+  font-size: 500%;
+  font-family: monospace;
 }

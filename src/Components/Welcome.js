@@ -10,10 +10,18 @@ export default class Welcome extends Component {
       <div className="welcome-container" id="welcome">
         <Slider />
         <div className="welcome-modal">
-          <h1>Welcome</h1>
+          <h1>Good morning starshine, the earth says Hello!</h1>
           <div className="social-media">
-            <img src={linkedInLogo} alt="" className="logo" />
-            <img src={gitHubLogo} alt="" className="logo" />
+            <a
+              href="https://www.linkedin.com/in/zach-lipps/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedInLogo} alt="" className="logo" />
+            </a>
+            <a href="https://github.com/zachlipps" target="_blank" rel="noopener noreferrer">
+              <img src={gitHubLogo} alt="" className="logo" />
+            </a>
           </div>
         </div>
       </div>
