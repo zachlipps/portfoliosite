@@ -1,0 +1,13 @@
+.intro-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  position: relative;
+}
+
+.about-img {
+  height: 85%;
+  width: 35%;
+}

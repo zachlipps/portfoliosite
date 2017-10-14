@@ -9,7 +9,6 @@ export default class Header extends Component {
         <AnchorLink href="#welcome">Welcome</AnchorLink>
         <AnchorLink href="#intro">Intro</AnchorLink>
         <AnchorLink href="#projects">Projects</AnchorLink>
-        <AnchorLink href="#hobbies">Hobbies</AnchorLink>
         <AnchorLink href="#resume">Resume</AnchorLink>
         <AnchorLink href="#contact-me">Contact Me</AnchorLink>
       </div>

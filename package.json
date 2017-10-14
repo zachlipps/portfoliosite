@@ -8,6 +8,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.5",
     "react-dom": "^16.0.0",
     "react-responsive-carousel": "^3.1.27",
+    "react-responsive-modal": "^1.9.0",
     "react-scripts": "1.0.14"
   },
   "scripts": {
