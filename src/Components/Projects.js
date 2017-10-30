@@ -7,7 +7,7 @@ export default class Projects extends Component {
   render() {
     return (
       <div className="projects-container" id="projects">
-        <p>PROJECTS</p>
+        <p className="title">PROJECTS</p>
         <div className="project-layout">
           <img src={CityRage} alt="loading" className="project-images" />
           <div className="project-text">

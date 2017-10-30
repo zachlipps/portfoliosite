@@ -8,9 +8,9 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   justify-content: space-around;
-  background-color: lightgray;
+  background-color: rgb(241, 248, 255);
   height: auto;
-  opacity: 0.75;
+  opacity: 0.95;
   height: 50px;
   align-items: center;
   z-index: 5;

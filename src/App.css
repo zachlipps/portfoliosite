@@ -30,6 +30,14 @@
   scroll-behavior: smooth;
 }
 
+.title {
+  font-family: monospace;
+  font-size: 3.5vw;
+  background-color: rgb(241, 248, 255);
+  padding: 15px;
+  margin-top: 0px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

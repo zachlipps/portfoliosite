@@ -16,8 +16,8 @@ class App extends Component {
         <div className="scroll-container">
           <Welcome />
           <Intro />
-          <Projects />
           <Resume />
+          <Projects />
           <Footer />
         </div>
       </div>

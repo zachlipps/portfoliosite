@@ -6,10 +6,10 @@ export default class Header extends Component {
   render() {
     return (
       <div className="topbar-container">
-        <AnchorLink href="#welcome">Welcome</AnchorLink>
-        <AnchorLink href="#intro">Intro</AnchorLink>
+        <AnchorLink href="#welcome">Back to Top</AnchorLink>
+        <AnchorLink href="#intro">Introduction</AnchorLink>
+        <AnchorLink href="#resume">Skills</AnchorLink>
         <AnchorLink href="#projects">Projects</AnchorLink>
-        <AnchorLink href="#resume">Resume</AnchorLink>
         <AnchorLink href="#contact-me">Contact Me</AnchorLink>
       </div>
     );
