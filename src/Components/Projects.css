@@ -1,5 +1,33 @@
 .projects-container {
   border: 5px solid purple;
-  height: 300px;
   background-color: light grey;
+  font-family: monospace;
+}
+
+.project-text {
+  font-family: monospace;
+  flex-wrap: wrap;
+  flex-basis: 1;
+  align-content: center;
+  justify-content: center;
+}
+
+.project-layout {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.project-images {
+  height: 25%;
+  width: 25%;
+  border-radius: 2%;
+  flex-grow: 5;
+  flex-basis: 5;
+}
+
+.project-child {
+  flex-basis: 1;
 }

@@ -5,7 +5,11 @@ export default class Resume extends Component {
   render() {
     return (
       <div className="resume-container odd" id="resume">
-        <embed src="http://example.com/the.pdf" width="500" height="375" type="application/pdf" />
+        <p>SKILLS</p>
+        <p>
+          ⬧ JavaScript ⬧ Node ⬧ Bootstrap ⬧ ES6 ⬧ MongoDB ⬧ JSX ⬧ HTML ⬧ MySQL ⬧ Git ⬧ CSS ⬧
+          Firebase ⬧ GraphQL ⬧ Apollo ⬧ React ⬧ React Native ⬧ Webpack ⬧ Redux ⬧ Babel ⬧jQuery
+        </p>
       </div>
     );
   }
