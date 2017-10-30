@@ -6,11 +6,21 @@ export default class Header extends Component {
   render() {
     return (
       <div className="topbar-container">
-        <AnchorLink href="#welcome">Back to Top</AnchorLink>
-        <AnchorLink href="#intro">Introduction</AnchorLink>
-        <AnchorLink href="#resume">Skills</AnchorLink>
-        <AnchorLink href="#projects">Projects</AnchorLink>
-        <AnchorLink href="#contact-me">Contact Me</AnchorLink>
+        <AnchorLink offset="50" href="#welcome">
+          Back to Top
+        </AnchorLink>
+        <AnchorLink offset="50" href="#intro">
+          Introduction
+        </AnchorLink>
+        <AnchorLink offset="50" href="#resume">
+          Skills
+        </AnchorLink>
+        <AnchorLink offset="50" href="#projects">
+          Projects
+        </AnchorLink>
+        <AnchorLink offset="50" href="#contact-me">
+          Contact Me
+        </AnchorLink>
       </div>
     );
   }

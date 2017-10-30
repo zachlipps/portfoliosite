@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from './imageslider/Slider';
 import linkedInLogo from './images/linkedin.png';
-import gitHubLogo from './images/githubLogo.png';
+import gitHubLogo from './images/github.png';
 import './Welcome.css';
 
 export default class Welcome extends Component {

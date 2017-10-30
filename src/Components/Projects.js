@@ -9,8 +9,10 @@ export default class Projects extends Component {
       <div className="projects-container" id="projects">
         <p className="title">PROJECTS</p>
         <div className="project-layout">
-          <img src={CityRage} alt="loading" className="project-images" />
-          <div className="project-text">
+          <div className="project-layout-child">
+            <img src={CityRage} alt="loading" className="project-images" />
+          </div>
+          <div className="project-text project-layout-child">
             <p>CityRage</p>
             <p>
               City Rampage is a king-of-the-hill game originally designed for the browser. The game
@@ -20,8 +22,10 @@ export default class Projects extends Component {
           </div>
         </div>
         <div className="project-layout">
-          <img src={DayTrip} alt="loading" className="project-images" />
-          <div>
+          <div className="project-layout-child">
+            <img src={DayTrip} alt="loading" className="project-images" />
+          </div>
+          <div className="project-text project-layout-child">
             <p>DayTrip</p>
             <p>
               City Rampage is a king-of-the-hill game originally designed for the browser. The game

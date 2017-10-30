@@ -3,6 +3,8 @@
   scroll-behavior: smooth;
   overflow-x: hidden;
   display: flex;
+  font-family: monospace;
+  font-size: 2vw;
 }
 
 .App-logo {
